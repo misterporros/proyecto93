@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>sal</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="stylesheet" href="kwitter_room.css">
+<script src="kwitter_room.js"></script>
+
+    </head>
+    <body>
+        <button id="vete_de_aqui" class="btn btn-sucess" onclick="logOut()">salir</button>
+        <center>
+        <h1>sal :D</h1>
+        <br>
+        <h3 id="NUEVO_USUARIO!"></h3>
+        <br>
+        <label>agrega nombre a tu sala y unete a esta experiencia</label>
+        <br>
+        <input type="text" id="sala_general" class="form-control" placeholder="anota aqui tu sala">
+        <br>
+        <button id="añadir_sala" class="btn btn-primary" onclick="makePlace()">Crear sala</button>
+        <br>
+        <h3>Salas de tendencia</h3>
+        <br>
+        <div id="Output"></div>
+    <br>
+        
+
+        
+        
+        
+
+
+        </center>
+    </body>
+</html>
